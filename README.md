@@ -195,17 +195,6 @@ Navigate to `http://localhost:5173` in your browser.
 
 ---
 
-### 4. First Run Checklist
-
-- [ ] Backend running on port 3001 (check terminal for `VaultMesh API listening on :3001`)
-- [ ] All three nodes show **Online** in the dashboard
-- [ ] Register an account and upload a small test file
-- [ ] Copy your `VM-XXXX-XXXX` retrieval key somewhere safe
-- [ ] Test retrieval using the key + your secret phrase
-- [ ] Try simulating a node failure and confirm self-healing works
-
----
-
 ## 📡 API Endpoints
 
 All endpoints (except auth) require `Authorization: Bearer <jwt>` header.
@@ -461,19 +450,6 @@ npm test
 
 ---
 
-## 🗺 Roadmap
-
-- [ ] **Browser-side encryption** — encrypt chunks in the browser before they leave the client
-- [ ] **Shamir's Secret Sharing** — split the retrieval key itself across multiple custodians
-- [ ] **Additional storage nodes** — AWS S3, Google Cloud Storage, Azure Blob adapters
-- [ ] **Configurable replication factor** — allow replication factor 3+ for critical files
-- [ ] **File versioning** — keep encrypted snapshots of previous file versions
-- [ ] **Audit log** — immutable retrieval and access event history
-- [ ] **CLI client** — `vaultmesh push/pull` commands for scripted workflows
-- [ ] **Mobile app** — React Native client for on-device vault access
-- [ ] **Zero-knowledge proofs** — prove file ownership without revealing content
-
----
 
 ## 🤝 Contributing
 
@@ -497,8 +473,6 @@ Distributed under the MIT License. See [`LICENSE`](LICENSE) for details.
 
 <div align="center">
 
-Built with ⬡ by the VaultMesh contributors
-
-*Your files. Split. Encrypted. Distributed. Yours.*
+Built with 🩵 by [Elvish Patel](https://github.com/elvishpatel)
 
 </div>
