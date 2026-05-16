@@ -12,7 +12,7 @@
 
 **VaultMesh** is a full-stack secure file vault where every file is split into encrypted chunks, distributed across multiple storage nodes, and can only be reconstructed using a unique retrieval key and secret phrase.
 
-[Features](#-features) · [Architecture](#-Architecture) · [Quick Start](#-quick-start) · [API Reference](#-api-endpoints) · [Security Model](#-security-model) 
+[Features](#-features) · [Architecture](#-architecture) · [Quick Start](#-quick-start) · [API Reference](#-api-endpoints) · [Security Model](#-security-model) 
 
 </div>
 
